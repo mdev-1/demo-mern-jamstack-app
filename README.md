@@ -6,17 +6,29 @@
 
 I have created this full-stack JavaScript demo project using the MERN stack (Mongo, Express, React, Node).
 
+The project can be run locally using `npm run dev`. This will start a node server on port 5000 and a React client on port 3000.
+
 ## Tech used ✨
 
-- Redux (reducers, actions, connect...)
-- PropTypes
-- Connects to Mongo Atlas
-- Middleware
-- JWT authentication
-- Local storage
+### API
+
+- Node server - `/server.js`
+- Auth middleware (inc. JWT verification) - `/middleware/auth.js`
+- Mongo / mongoose data entity models - `/models/*`
+- CRUD functionality - `/routes/api/items.js`
+- Bcrypt password hashing and JWT creation - `/routes/api/users.js`
+- Bcrypt password matching and JWT creation - `/routes/api/auth.js`
+
+### Client
+
+- Redux reducers (inc. localStorage) - `/client/src/reducers/*`
+- Redux actions (inc. axios and JWT) - `/client/src/actions/*`
+- Redux store (inc. thunk) - `/client/src/store.js`
+- Components (inc. PropTypes) - `/client/src/components/*`
 
 ## To do 📚
 
+- <del>Update readme</del>
 - Deploy to web
 - Add tests
 
