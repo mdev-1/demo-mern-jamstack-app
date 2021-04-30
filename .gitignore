@@ -1,3 +1,6 @@
+# config
+/config/default.json
+
 # dependencies
 /node_modules
 /client/node_modules
