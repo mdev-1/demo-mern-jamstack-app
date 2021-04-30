@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://[Mongo connection string]",
+  "jwtSecret": "sl_myJwtSecret"
+}
